@@ -15,5 +15,5 @@ GET http://localhost:8081
 POST http://localhost:8081/actuator/refresh
 
 ### 테스트
-GET http://localhost:8888/custom/dsjdfj/application/local
+GET http://localhost:8888/custom/dsjdfj/app1/beta
 secretkey: sse
