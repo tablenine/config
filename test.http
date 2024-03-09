@@ -17,3 +17,9 @@ POST http://localhost:8081/actuator/refresh
 ### 테스트
 GET http://localhost:8888/custom/dsjdfj/app1/beta
 secretkey: sse
+
+### 설정변경 적용
+POST http://localhost:8888/actuator/busrefresh
+
+###
+
