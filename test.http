@@ -1,0 +1,19 @@
+GET http://localhost:8888/application/local
+
+
+###
+GET http://localhost:8080
+
+###
+POST http://localhost:8080/actuator/refresh
+
+
+###
+GET http://localhost:8081
+
+###
+POST http://localhost:8081/actuator/refresh
+
+### 테스트
+GET http://localhost:8888/custom/dsjdfj/application/local
+secretkey: sse
