@@ -19,7 +19,6 @@ GET http://localhost:8888/custom/dsjdfj/app1/beta
 secretkey: sse
 
 ### 설정변경 적용
-POST http://localhost:8888/actuator/busrefresh
-
+POST http://localhost:8888/custom-bus-refresh/dsjdfj/app1
 ###
-
+POST http://localhost:8888/custom-bus-refresh/dsjdfj/application:8081
