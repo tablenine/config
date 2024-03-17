@@ -14,6 +14,9 @@ public class TestInterceptor implements HandlerInterceptor {
 		String uri = request.getRequestURI();
 		String secretKey = request.getHeader("secretkey");
 		log.info(uri);
+		if ("monitor".equals(uri)) {
+			return false;
+		}
 		return true;
 	}
 }

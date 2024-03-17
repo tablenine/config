@@ -22,6 +22,7 @@ dependencies {
 	implementation ("org.springframework.cloud:spring-cloud-config-server")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.cloud:spring-cloud-starter-bus-amqp")
+	implementation("org.springframework.cloud:spring-cloud-config-monitor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
