@@ -15,6 +15,13 @@ public class GithubMapper implements GithubRepositoryPort {
 					.defaultLabel("master")
 					.cloneOnStart(true)
 					.build();
+		} else if ("app2".equals(application)) {
+			return GithubInfo.builder()
+					.uri("https://gitlab.com/config9802412/test-config3.git")
+					.userName("tablenine")
+					.defaultLabel(label)
+					.cloneOnStart(true)
+					.build();
 		} else {
 			return GithubInfo.builder()
 					.uri("https://github.com/tablenine/test-config2.git")
