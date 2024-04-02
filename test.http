@@ -24,7 +24,8 @@ POST http://localhost:8888/custom-bus-refresh/dsjdfj/app1:**:appkey1
 POST http://localhost:8888/custom-bus-refresh/dsjdfj/application:**:appkey2
 ###
 POST http://localhost:8888/custom-bus-refresh/dsjdfj/application:8081
-
+###
+GET http://localhost:8888/custom/dfjkavjxcvjlk/app2/local/main
 ###
 POST http://localhost:8888/monitor
 Content-Type: application/json
